@@ -1,97 +1,36 @@
-# Welcome to your Lovable project
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# 🌐 Soutien-Fac Website
 
-node_modules
-dist
-dist-ssr
-*.local
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Made with](https://img.shields.io/badge/Made%20with-React-blue)
+![Tailwind](https://img.shields.io/badge/Styled%20with-TailwindCSS-38B2AC)
+![Node](https://img.shields.io/badge/Backend-Node.js-green)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+---
 
-## Project info
+Ce projet consiste à développer un site web moderne et interactif pour **Soutien-Fac**, 
+une organisation qui accompagne les étudiants dans leurs projets académiques 
+(admissions universitaires, bourses d’études, visas étudiants, évaluations de diplômes et pré-fac).
 
-**URL**: https://lovable.dev/projects/c16857f5-27f7-4894-aed6-0a7f5d1a58fc
+---
 
-## How can I edit this code?
+## 🎯 Objectif du projet
 
-There are several ways of editing your application.
+- Offrir à **Soutien-Fac** une vitrine digitale professionnelle.  
+- Faciliter la diffusion d’informations clés : bourses, concours, pré-fac, services.  
+- Renforcer la visibilité et la crédibilité de l’organisation.  
+- Créer un espace interactif où les étudiants trouvent des ressources utiles.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c16857f5-27f7-4894-aed6-0a7f5d1a58fc) and start prompting.
+## 🚀 Fonctionnalités principales
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Page d’accueil** : présentation, services phares, témoignages étudiants.  
+- **Section Services** : admissions, bourses, visas, évaluations de diplômes, pré-fac.  
+- **Module Bourses & Concours** : catalogue interactif, résultats publiés, alertes.  
+- **Blog & Ressources** : articles pratiques, FAQ, vidéos/tutoriels.  
+- **Communauté & Interaction** : forum ou redirection vers WhatsApp, témoignages, webinaires.  
+- **Page “À propos”** : histoire, équipe, valeurs, statistiques clés.  
+- **Contact & Support** : formulaire de contact, WhatsApp direct, carte Google Maps, chatbot FAQ.  
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c16857f5-27f7-4894-aed6-0a7f5d1a58fc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+> ❌ Fonctionnalités exclues volontairement : espace étudiant personnalisé et paiement en ligne.  
