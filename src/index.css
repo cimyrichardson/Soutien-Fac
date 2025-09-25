@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Soutien-Fac Brand Colors */
+    --brand-navy: 220 100% 15%; /* Bleu marine profond */
+    --brand-red: 0 85% 55%; /* Rouge vif */
+    --brand-light-blue: 210 100% 95%; /* Bleu très clair */
+    
+    /* Base colors */
+    --background: 0 0% 100%;
+    --foreground: 220 100% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 100% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 100% 15%;
+
+    --primary: 220 100% 15%; /* Navy blue */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 100% 95%; /* Light blue */
+    --secondary-foreground: 220 100% 15%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 220 15% 45%;
+
+    --accent: 0 85% 55%; /* Red accent */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 90%;
+    --input: 220 20% 95%;
+    --ring: 220 100% 15%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 100% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 100% 10%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 100% 10%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 220 100% 15%;
+
+    --secondary: 220 50% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 50% 20%;
+    --muted-foreground: 220 20% 65%;
+
+    --accent: 0 85% 55%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 50% 20%;
+    --input: 220 50% 20%;
+    --ring: 0 85% 55%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  /* Custom gradients */
+  .gradient-hero {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+  }
+
+  .gradient-subtle {
+    background: linear-gradient(180deg, hsl(var(--background)), hsl(var(--secondary)));
+  }
+
+  /* Smooth transitions */
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Custom shadows */
+  .shadow-brand {
+    box-shadow: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+  }
+
+  .shadow-accent {
+    box-shadow: 0 5px 20px -5px hsl(var(--accent) / 0.3);
+  }
+}
