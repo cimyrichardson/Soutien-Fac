@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 ![Made with](https://img.shields.io/badge/Made%20with-React-blue)
 ![Tailwind](https://img.shields.io/badge/Styled%20with-TailwindCSS-38B2AC)
-![Node](https://img.shields.io/badge/Backend-Node.js-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
